@@ -28,6 +28,12 @@ Built with Python, Tkinter, Ollama, OpenCV, and custom automation tools.
 * Threading
 * JSON Memory Storage
 
+## 📦 Project Files
+
+* `face2.py` → Main Emo AI file with all features and functions
+* `speech.py` → Voice and speech system that allows Emo to talk
+* `memory.json` → Conversation memory storage
+
 ## 📦 Commands Examples
 
 * `open chrome`
@@ -39,21 +45,31 @@ Built with Python, Tkinter, Ollama, OpenCV, and custom automation tools.
 ## 🚀 How To Run
 
 1. Install Ollama
-2. Run:
 
-   ```bash
-   ollama serve
-   ```
+2. Run Ollama:
+
+```bash
+ollama serve
+````
+
 3. Pull a model:
 
-   ```bash
-   ollama pull qwen2.5:3b
-   ```
-4. Run Emo AI:
+```bash
+ollama pull qwen2.5:3b
+```
 
-   ```bash
-   python emo.py
-   ```
+4. Download both files:
+
+* `face2.py`
+* `speech.py`
+
+5. Open PowerShell or Terminal inside the project folder
+
+6. Run Emo AI:
+
+```bash
+python face2.py
+```
 
 ## 🎭 Personality
 
@@ -70,3 +86,6 @@ Emo is designed as a tiny funny digital companion with expressive emotions, play
 * AI vision support
 
 Made with chaos, coffee, and late-night coding ☕
+
+```
+```
